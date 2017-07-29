@@ -1,0 +1,197 @@
+/*General Styling + Welcome Page*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-weight: 800;
+}
+
+h2, h3 {
+	font-weight: 600;
+}
+
+nav {
+	padding: 10px;
+}
+
+.graph-section .btn, .settings-section button {
+	margin: 15px;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.col-centered {
+	margin: 0 auto;
+	float: none;
+}
+
+.features-section {
+	padding: 100px 30px;
+	text-align: center;
+}
+
+.features-section .glyphicon {
+	font-size:5em;
+	padding: 10px;
+	color: #0176FF;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#welcome-graph {
+	font-size: 10em;
+	padding: 40px 0px 0px;
+	color: #0176FF;
+}
+
+#start-section .input-group {
+	margin: 0 auto;
+}
+
+#start-next-btn {
+ 	margin-top: 25px;
+}
+
+.progress {
+    margin-top: 50px;
+}
+
+#save-button {
+	margin-top: 20px;
+}
+
+/* Graph Page */
+
+label, button {
+    padding-top: 20px;
+}
+
+.submit-section {
+	padding: 0px 0px 30px 0px;
+	max-width: 75%;
+}
+
+.title {
+	letter-spacing: 4px;
+  	text-shadow:2px 2px 0 rgba(0,0,0,0.1);
+	padding-bottom: 20px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.section-heading {
+	text-shadow:2px 2px 0 rgba(0,0,0,0.1);
+}
+
+#graph-it-button {
+}
+
+/*****************
+Flexbox Layout
+******************/
+
+/*Whole Page*/
+
+body {
+	background: #e1eec3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #f05053, #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #f05053, #e1eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body nav {
+	width: 100%;
+}
+
+/*Graph Container*/
+
+.graph-section {
+	max-width: 100%;
+}
+
+.panel-heading {
+	text-align: center;
+	width: 100%;
+}
+
+.flex-panel {
+
+}
+
+.panel-body {
+
+}
+
+/*Input Container*/
+
+.input-section {
+	padding: 15px;
+	background: rgba(255,255,255,.4);
+}
+
+.input-section > * {
+}
+
+.input-container {
+
+}
+
+/* Input Forms*/
+
+form {
+
+}
+
+form > * {
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.form-horizontal .form-group {
+    margin: 0;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline-block;
+margin:auto;
+/*margin-left:3em;
+margin-right:3em;
+margin-top:1em;
+margin-bottom:1em;*/
+
+
+}
+
+/************
+Media Queries
+************/
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px)  {  }
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px)  {  }
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  {  }
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  {  }
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {  }
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {  }
